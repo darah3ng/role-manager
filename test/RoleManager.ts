@@ -19,6 +19,11 @@ describe("Greeting", () => {
     expect(await greeting.greet()).to.equal("");
   });
 
+  it("should by default apply the owner wallet to be the owner of the contract deployment", async function () {
+    const { greeting, owner } = await setupContracts();
+    expect(await greeting.owner()).to.equals(owner.address);
+  });
+
   it("should allow an authorized wallet to set the greeting", async function () {
     const { greeting, roleManager, owner, admin } = await setupContracts();
 
