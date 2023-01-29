@@ -1,4 +1,4 @@
-# Role manager contract
+# Role manager smart contract
 
 This project implements a simple Greeting contract that enables setting and retrieving a greeting message through a **role-based approach**, enforced by the **RoleManager** contract.
 
