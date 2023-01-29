@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -22,7 +21,7 @@ contract Greeting is Ownable {
         _;
     }
 
-    function speak() public view returns (string memory) {
+    function greet() public view returns (string memory) {
         return _greet;
     }
 
