@@ -6,7 +6,11 @@ The Greeting contract extends the Ownable contract from the OpenZeppelin library
 
 The `onlyWalletWithAccess` modifier is used to enforce this check and prevent unauthorized access. Additionally, it provides the `hasRole` function that allows checking if a given address has access to the Greeting contract.
 
-<img src="https://user-images.githubusercontent.com/12386682/215308316-a06852ca-cc57-4a8d-9645-839ff0d87ab3.png" width="500px" />
+## Diagram
+
+<img src="https://user-images.githubusercontent.com/12386682/215650811-d943be35-39ae-494d-81cf-49664387f266.png" width="700px" />
+
+
 
 Commands
 
